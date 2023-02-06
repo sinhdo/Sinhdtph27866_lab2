@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, Image, FlatList } from 'react-native';
 import { NavigationContainer } from "@react-navigation/native";
 // import App from '../App';
-import ProductList from './Sceen./index';;
+import ProductList from '../index';
 const QuanLi = (props) => {
     const route = props.route;
     const listTuHome = route.params.data;

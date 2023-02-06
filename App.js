@@ -2,9 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, Image } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import QuanLi from './assets/QuanLy';
-import About from './assets/About';
-import ProductList from './index';
+import QuanLi from './Sceen/QuanLy'
+import About from './Sceen/About'
+import ProductList from './Sceen/index';
 
 const Stack = createNativeStackNavigator();
 
